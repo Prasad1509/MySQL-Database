@@ -130,7 +130,7 @@ INSERT INTO enrollments VALUES
 (1, 202),
 (2, 202);
 
--- 3. Join Query: Get student name and course name
+-- 3. Join Query: Get student name and course name.
 SELECT s.name, c.course_name
 FROM student_master_1to1 s
 JOIN enrollments e ON s.student_id = e.student_id
