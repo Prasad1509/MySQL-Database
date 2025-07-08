@@ -1,4 +1,4 @@
--- one to one
+-- one to one 
 -- Main student table
 CREATE TABLE student_master_1to1 (
     student_id INT PRIMARY KEY,
