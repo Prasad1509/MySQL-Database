@@ -14,7 +14,6 @@ begin
     if not done then
       update employees set salary = salary + 1000 where emp_id = empid;
     end if;
-
   until done end repeat;
 
   close curs;
