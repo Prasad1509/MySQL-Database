@@ -6,7 +6,7 @@ CREATE TABLE students (
     student_id INT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     age INT DEFAULT 18 CHECK (age > 0),
-    class VARCHAR(20) DEFAULT 'FYBSc'
+    class VARCHAR(20) DEFAULT 'FYBSc' 
 );
 
 ALTER TABLE students ADD email VARCHAR(100);
