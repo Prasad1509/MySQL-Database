@@ -18,7 +18,7 @@ begin
 
   close curs;
 end //
-
+ 
 delimiter ;
 
 call increase_salary();
