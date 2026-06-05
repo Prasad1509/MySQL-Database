@@ -10,7 +10,7 @@ CREATE TABLE Customer_Master (
   CustomerID INT PRIMARY KEY,
   CustomerName VARCHAR(100),
   CustomerPhone VARCHAR(15)
-);
+); 
 
 -- Creating Product Master Table
 CREATE TABLE Product_Master (
