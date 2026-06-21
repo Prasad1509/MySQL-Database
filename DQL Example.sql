@@ -4,7 +4,7 @@ SELECT * FROM students;
 
 -- 2. Select name and class only
 SELECT name, class FROM students;
-
+ 
 -- 3. Where condition
 SELECT * FROM students WHERE age > 18;
 
