@@ -20,5 +20,6 @@ SELECT * FROM students WHERE age BETWEEN 18 AND 21;
 -- 7. Pattern match: names starting with 'A'
 SELECT * FROM students WHERE name LIKE 'A%';
 
+
 -- 8. Use alias
 SELECT name AS FullName, class AS StdClass FROM students;
