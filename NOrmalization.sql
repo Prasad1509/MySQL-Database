@@ -1,4 +1,4 @@
--- 
+
 -- Creating Customer Master Table
 CREATE TABLE Customer_Master (
   CustomerID INT PRIMARY KEY,
