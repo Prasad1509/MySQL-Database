@@ -8,6 +8,6 @@ deterministic
 begin
   return concat(house, ', ', city, ', ', state);
 end //
-
+ 
 delimiter ;
 select get_full_address('flat 101', 'pune', 'maharashtra') as full_address;
