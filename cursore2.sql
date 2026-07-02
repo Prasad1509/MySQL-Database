@@ -6,7 +6,7 @@ begin
   declare empid int;
   declare curs cursor for select emp_id from employees;
   declare continue handler for not found set done = 1;
-
+ 
   open curs;
 
   repeat
