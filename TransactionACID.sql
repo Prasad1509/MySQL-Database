@@ -12,7 +12,6 @@ balance int
  SELECT * FROM accounts;
 
  
-
 start transaction;
 update accounts set balance= balance-1000 where ac_id=1;
   SELECT * FROM accounts;
