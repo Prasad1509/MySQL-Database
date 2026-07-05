@@ -5,7 +5,7 @@ USE school_db;
 CREATE TABLE students (
     student_id INT PRIMARY KEY, 
     name VARCHAR(100) NOT NULL,
-    age INT DEFAULT 18 CHECK (age > 0),
+    age INT DEFAULT 18 CHECK (age > 0), 
     class VARCHAR(20) DEFAULT 'FYBSc' 
 );
 
