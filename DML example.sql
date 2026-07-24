@@ -5,7 +5,7 @@ WHERE student_id = 1;
 DELETE FROM students
 WHERE student_id = 4;
 
-SELECT * FROM students
+SELECT * FROM students 
 WHERE class = 'SYBSc';
 
 SELECT name, class FROM students;
