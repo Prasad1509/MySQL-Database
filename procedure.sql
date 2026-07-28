@@ -6,7 +6,7 @@ create table employees (
     position varchar(50),
     salary decimal(10,2)
 );
-
+ 
 insert into employees values
 (1, 'atharv', 'developer', 50000),
 (2, 'sneha', 'designer', 45000),
