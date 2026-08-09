@@ -4,7 +4,7 @@ WHERE student_id IN (
     SELECT student_id 
     FROM marks
     WHERE score > (SELECT AVG(score) FROM marks)
-);
+); 
 
 SELECT name
 FROM student_master_1to1
