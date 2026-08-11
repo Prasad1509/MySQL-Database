@@ -3,7 +3,7 @@ drop table if exists employees;
 create table employees (
     emp_id int primary key,
     name varchar(50),
-    position varchar(50),
+    position varchar(50), 
     salary decimal(10,2)
 );
  
