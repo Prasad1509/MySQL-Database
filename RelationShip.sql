@@ -7,7 +7,7 @@ CREATE TABLE student_master_1to1 (
 
 -- Detail table (1:1)
 CREATE TABLE student_details_1to1 (
-    detail_id INT PRIMARY KEY,
+    detail_id INT PRIMARY KEY, 
     student_id INT UNIQUE,
     address VARCHAR(100),
     phone_number VARCHAR(15),
