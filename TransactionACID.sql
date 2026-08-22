@@ -4,7 +4,7 @@ ac_name varchar(40),
 balance int
 );
  insert into accounts values
- (1,"Atharv",50000000),
+ (1,"Atharv",50000000), 
  (2,"Prasad",60000),
  (3,"Neha",40000),
  (4,"Sneha",70000);
