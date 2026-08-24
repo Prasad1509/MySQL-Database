@@ -1,7 +1,7 @@
 -- one to one 
 -- Main student table
 CREATE TABLE student_master_1to1 (
-    student_id INT PRIMARY KEY,
+    student_id INT PRIMARY KEY, 
     name VARCHAR(50)
 );
 
