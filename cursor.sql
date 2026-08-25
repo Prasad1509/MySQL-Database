@@ -9,7 +9,7 @@ begin
 
   open curs; 
 
-  repeat
+  repeat 
     fetch curs into empid;
     if not done then
       update employees set salary = salary + 1000 where emp_id = empid;
