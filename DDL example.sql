@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS school_db;
 
 USE school_db;
 
-CREATE TABLE students (
+CREATE TABLE students ( 
     student_id INT PRIMARY KEY, 
     name VARCHAR(100) NOT NULL,
     age INT DEFAULT 18 CHECK (age > 0), 
