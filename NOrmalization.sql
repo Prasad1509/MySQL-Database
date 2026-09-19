@@ -1,7 +1,7 @@
 
 -- Creating Customer Master Table
 CREATE TABLE Customer_Master (
-  CustomerID INT PRIMARY KEY,
+  CustomerID INT PRIMARY KEY,    
   CustomerName VARCHAR(100), 
   CustomerPhone VARCHAR(15)
 );-- 
