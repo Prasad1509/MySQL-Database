@@ -8,7 +8,7 @@ WHERE student_id = 4;
 SELECT * FROM students    
 WHERE class = 'SYBSc';
 
-SELECT name, class FROM students;
+SELECT name, class FROM students;      
 
 SELECT * FROM students
 WHERE age > 18;
