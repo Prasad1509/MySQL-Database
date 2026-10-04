@@ -1,7 +1,7 @@
 USE school_db;
 -- 1. Select all
 SELECT * FROM students;
-
+                               
 -- 2. Select name and class only
 SELECT name, class FROM students;
  
