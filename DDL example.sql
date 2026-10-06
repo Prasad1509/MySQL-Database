@@ -1,7 +1,7 @@
 CREATE DATABASE IF NOT EXISTS school_db;         
 
 USE school_db;
-            
+                  
 CREATE TABLE students ( 
     student_id INT PRIMARY KEY,  
     name VARCHAR(100) NOT NULL,
