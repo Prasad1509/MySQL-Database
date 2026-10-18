@@ -3,7 +3,7 @@ SET class = 'SYBSc'
 WHERE student_id = 1;
 
 DELETE FROM students
-WHERE student_id = 4;
+WHERE student_id = 4;                         
 
 SELECT * FROM students    
 WHERE class = 'SYBSc';
