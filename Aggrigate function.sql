@@ -1,5 +1,5 @@
 USE school_db;
-
+    
 INSERT INTO students (student_id, name, age, class)
 VALUES USE school_db;
  
