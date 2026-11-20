@@ -4,7 +4,7 @@ delimiter //
 
 create function get_full_name(fname varchar(50), lname varchar(50))
 returns varchar(100)
-deterministic
+deterministic                       
 begindrop function if exists get_full_name;
  
 delimiter //
