@@ -7,7 +7,7 @@ SELECT name, class FROM students;
  
 -- 3. Where condition
 SELECT * FROM students WHERE age > 18;                      
-
+                      
 -- 4. Sorting by name
 SELECT * FROM students ORDER BY name ASC;
 
